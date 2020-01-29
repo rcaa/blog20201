@@ -46,6 +46,7 @@ group :test do
   gem 'webdrivers'
   gem 'cucumber'
   gem 'cucumber-rails'
+  gem 'rspec'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

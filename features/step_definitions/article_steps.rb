@@ -1,6 +1,6 @@
 Given("I am at new articles page") do
   visit 'articles/new'
-    #expect(page).to have_content('New article')
+  expect(page).to have_content('New Article')
 end
 
 When("I fill title {string} and text {string}") do |title, body|
@@ -13,5 +13,5 @@ When("I click on create article") do
 end
 
 Then("I see that the article entitled {string} is correctly created") do |title|
-  #expect(page).to have_content(title)
+  expect(page).to have_content(title)
 end
