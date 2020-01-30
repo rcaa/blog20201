@@ -45,7 +45,7 @@ group :test do
   # Easy installation and use of web drivers to run system tests with browsers
   gem 'webdrivers'
   gem 'cucumber'
-  gem 'cucumber-rails'
+  gem 'cucumber-rails', require: false
   gem 'rspec'
 end
 
