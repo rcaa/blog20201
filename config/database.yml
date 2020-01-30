@@ -25,4 +25,3 @@ production:
   encoding: unicode
   pool: 5
   database: production
-
